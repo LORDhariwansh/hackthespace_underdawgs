@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerView" type="id" />
+    <item name="searchButton" type="id" />
+    <item name="districtInput" type="id" />
+    <item name="searchView" type="id" />
+    <item name="districtSpinner" type="id" />
+    <item name="commodityInput" type="id" />
+    <item name="arrivalDateInput" type="id" />
+    <item name="stateSpinner" type="id" />
+    <item name="stateTextView" type="id" />
+    <item name="districtTextView" type="id" />
+    <item name="marketTextView" type="id" />
+    <item name="commodityTextView" type="id" />
+    <item name="varietyTextView" type="id" />
+    <item name="gradeTextView" type="id" />
+    <item name="arrivalDateTextView" type="id" />
+    <item name="minPriceTextView" type="id" />
+    <item name="maxPriceTextView" type="id" />
+    <item name="modalPriceTextView" type="id" />
+    <item name="commodityCodeTextView" type="id" />
+</resources>
