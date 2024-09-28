@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#81c784"
+    android:layout_height="match_parent"
+    tools:context=".my_profile">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile_img"
+        android:layout_marginTop="40dp"
+        android:id="@+id/profile_img"
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:id="@+id/txt_name"
+        android:background="#43a047"
+        android:textColor="@color/black"
+        android:layout_below="@+id/profile_img">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHONE"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:id="@+id/PHONE"
+        android:background="#43a047"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_name">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:id="@+id/txt_email"
+        android:background="#43a047"
+        android:textColor="@color/black"
+        android:layout_below="@+id/PHONE">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADDRESS"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:id="@+id/txt_add"
+        android:background="#43a047"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_email">
+
+
+
+
+    </TextView>
+</RelativeLayout>

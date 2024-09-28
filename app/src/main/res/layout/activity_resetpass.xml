@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#E0FFFF"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="240dp"
+        android:layout_height="150dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp">
+    </ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  ENTER PASSWORD"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:background="@drawable/round"
+        android:id="@+id/etphonerr"
+        android:layout_below="@id/logo"
+        android:layout_margin="20dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  CONFIRM PASSWORD"
+        android:textColorHint="@color/black"
+        android:id="@+id/emailrr"
+        android:background="@drawable/round"
+        android:layout_below="@id/etphonerr"
+        android:layout_margin="20dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="  ENTER OTP"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:id="@+id/otp"
+        android:background="@drawable/round"
+        android:layout_below="@id/emailrr"
+        android:layout_margin="20dp">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/otp"
+        android:id="@+id/btn_nxtt"
+        android:layout_marginHorizontal="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="NEXT">
+    </Button>
+
+
+
+</RelativeLayout>

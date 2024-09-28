@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#1b5e20"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp">
+    </ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="ENTER PHONE"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:background="#a5d6a7"
+        android:id="@+id/etphoner"
+        android:layout_below="@id/logo"
+        android:layout_margin="20dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="ENTER EMAIL"
+        android:textColorHint="@color/black"
+        android:id="@+id/emailr"
+        android:background="#a5d6a7"
+        android:layout_below="@id/etphoner"
+        android:layout_margin="20dp">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/emailr"
+        android:id="@+id/btn_nxt"
+        android:layout_marginHorizontal="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="NEXT">
+    </Button>
+
+
+
+</RelativeLayout>

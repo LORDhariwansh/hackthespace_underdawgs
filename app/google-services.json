@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961005406757",
+    "project_id": "farmers-hts",
+    "storage_bucket": "farmers-hts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961005406757:android:ef3b4ddae238504738cdcc",
+        "android_client_info": {
+          "package_name": "com.example.farmers_hts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSg0mgYFZxWSSU01TcLj1NyK4wvjOVYvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

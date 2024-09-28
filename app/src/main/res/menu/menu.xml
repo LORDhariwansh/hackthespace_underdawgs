@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_menu"
+        android:title="HOME"
+        >
+    </item>
+    <item
+        android:id="@+id/my_profile_menu"
+        android:title="CROP DISEASE">
+    </item>
+    <item
+        android:id="@+id/favm"
+        android:title="MARKET PRICE">
+    </item>
+
+    <item
+        android:id="@+id/faq_menu"
+        android:title="FAQ"
+        >
+    </item>
+    <item
+        android:id="@+id/logOut_menu"
+        android:title="Logout">
+    </item>
+
+
+</menu>

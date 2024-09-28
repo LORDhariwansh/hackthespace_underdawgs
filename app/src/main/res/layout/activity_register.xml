@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="#E0FFFF"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/applogo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp">
+    </ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="ENTER NAME"
+        android:background="@drawable/round"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/txt_name"
+
+        android:textColor="@color/black"
+        android:layout_below="@+id/logo">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="ENTER PHONE"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/PHONE"
+
+        android:background="@drawable/round"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_name">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="EMAIL"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/txt_email"
+        android:background="@drawable/round"
+        android:textColor="@color/black"
+        android:layout_below="@+id/PHONE">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="ADDRESS"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/txt_addre"
+        android:background="@drawable/round"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txt_email">
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="ENTER PASSWORD"
+        android:textColorHint="@color/black"
+        android:background="@drawable/round"
+        android:id="@+id/et_passl"
+        android:layout_below="@id/txt_addre"
+        android:layout_margin="20dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_passl"
+        android:id="@+id/btn_reg"
+        android:layout_marginHorizontal="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="REGISTER">
+    </Button>
+
+
+
+</RelativeLayout>
